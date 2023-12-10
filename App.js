@@ -3,17 +3,7 @@ function display(num)
 {
     outputScreen.value =+num;
 }
-function Calculate()
-{
 
-    try {
-        outputScreen.value = eval(outputScreen.value);
-      } 
-      catch (error) {
-        alert("Invalid");
-      }
-    }
-    
     // clear 
     
     function Clear() {
@@ -23,5 +13,5 @@ function Calculate()
     // delete
     
     function del() {
-      outputScreen.value = outputScreen.value.slice(0,-1);
+      outputScreen.value = outputScreen.value
     }
