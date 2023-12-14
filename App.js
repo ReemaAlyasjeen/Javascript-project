@@ -53,3 +53,8 @@ function func()
     if(outputScreen.value[outputScreen.value.length-1] !='.')
     outputScreen.value=outputScreen.value+ "."
   }
+  function  myFunc()
+  {
+    if(outputScreen.value[outputScreen.value.length-1] !='/')
+    outputScreen.value=outputScreen.value+ "/"
+  }
