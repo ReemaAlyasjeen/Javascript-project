@@ -53,8 +53,34 @@ function func()
     if(outputScreen.value[outputScreen.value.length-1] !='.')
     outputScreen.value=outputScreen.value+ "."
   }
+  // /
   function  myFunc()
   {
     if(outputScreen.value[outputScreen.value.length-1] !='/')
     outputScreen.value=outputScreen.value+ "/"
   }
+  // %
+  function  myFunc1()
+  {
+    if(outputScreen.value[outputScreen.value.length-1] !='%')
+    outputScreen.value=outputScreen.value+ "%"
+  }
+  // *
+  function  myFunc2()
+  {
+    if(outputScreen.value[outputScreen.value.length-1] !='*')
+    outputScreen.value=outputScreen.value+ "*"
+  }
+  // -
+  function  myFunc3()
+  {
+    if(outputScreen.value[outputScreen.value.length-1] !='-')
+    outputScreen.value=outputScreen.value+ "-"
+  }
+  // +
+  function  myFunc4()
+  {
+    if(outputScreen.value[outputScreen.value.length-1] !='+')
+    outputScreen.value=outputScreen.value+ "+"
+  }
+  
